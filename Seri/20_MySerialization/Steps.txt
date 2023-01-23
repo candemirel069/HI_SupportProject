@@ -1,0 +1,10 @@
+﻿1.
+//beautifier
+var options = new JsonSerializerOptions { WriteIndented = true };
+string jsonString = JsonSerializer.Serialize(data, options);
+
+2.
+Ignore
+
+3.
+Deserialize

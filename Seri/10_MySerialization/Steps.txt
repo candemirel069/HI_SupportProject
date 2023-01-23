@@ -1,0 +1,14 @@
+﻿1. 
+Remove NS
+var xns = new XmlSerializerNamespaces();
+xns.Add(string.Empty, string.Empty);
+serializer.Serialize(stringwriter, data, xns);
+
+2.
+Root
+
+3.
+Attribute
+
+4.
+Deserialize
