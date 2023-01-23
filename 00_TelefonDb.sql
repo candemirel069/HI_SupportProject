@@ -1,4 +1,10 @@
-﻿USE [TelefonDB]
+﻿use master
+go
+
+Create Database TelefonDB
+go
+
+USE [TelefonDB]
 GO
 /****** Object:  Table [dbo].[Job]    Script Date: 23.01.2023 09:29:14 ******/
 SET ANSI_NULLS ON
