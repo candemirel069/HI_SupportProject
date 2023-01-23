@@ -1,0 +1,10 @@
+
+
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TelefonDB;Integrated Security=True;TrustServerCertificate=True;
+
+Scaffold-DbContext "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TelefonDB;Integrated Security=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data 
+
+
+Scaffold-DbContext "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TelefonDB;Integrated Security=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data -f -t person -dataannotations --context PersonContext
+
+

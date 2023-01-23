@@ -1,0 +1,9 @@
+
+ var validationErrors = ModelState.Values.Where(E => E.Errors.Count > 0)
+    .SelectMany(E => E.Errors)
+    .Select(E => E.ErrorMessage)
+    .ToList();
+            foreach (var item in validationErrors)
+                {
+                    ModelState.AddModelError("", item);
+            }

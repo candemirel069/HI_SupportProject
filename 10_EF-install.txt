@@ -1,0 +1,12 @@
+Install-Package Microsoft.EntityFrameworkCore -v 5.0.17
+Install-Package Microsoft.EntityFrameworkCore.sqlserver -v 5.0.17
+Install-Package Microsoft.EntityFrameworkCore.tools -v 5.0.17
+Install-Package Microsoft.EntityFrameworkCore.design -v 5.0.17
+
+
+
+Install-Package Microsoft.EntityFrameworkCore 
+Install-Package Microsoft.EntityFrameworkCore.sqlserver 
+Install-Package Microsoft.EntityFrameworkCore.tools 
+Install-Package Microsoft.EntityFrameworkCore.design 
+
