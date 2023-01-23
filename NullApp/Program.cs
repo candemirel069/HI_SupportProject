@@ -10,7 +10,7 @@
         }
         static void Main2(string[] args)
         {
-            Adres adres = null;
+            Adres? adres = null;
             Console.WriteLine(adres.Sokak.Length);
             Console.WriteLine(adres.Mahalle?.Length);
 
